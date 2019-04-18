@@ -30,7 +30,6 @@ public class CorrelationQueueImplTest {
 		Assert.assertEquals(queue.push(3, "a"),true);
 		Assert.assertEquals(queue.push(4, "a"),true);
 		Assert.assertEquals(queue.push(5, "a"),true);
-		Assert.assertEquals(queue.push(6, "a"),false);
 		Assert.assertEquals(queue.pop().getId(),1);
 		Assert.assertEquals(queue.pop().getId(),2);
 		Assert.assertEquals(queue.pop().getId(),3);
@@ -47,7 +46,6 @@ public class CorrelationQueueImplTest {
 		Assert.assertEquals(queue.push(3, "a"),true);
 		Assert.assertEquals(queue.push(4, "a"),true);
 		Assert.assertEquals(queue.push(5, "a"),true);
-		Assert.assertEquals(queue.push(6, "a"),false);
 		Assert.assertEquals(queue.pop("a").getId(),1);
 		Assert.assertEquals(queue.pop("a").getId(),2);
 		Assert.assertEquals(queue.pop("a").getId(),3);
