@@ -37,4 +37,15 @@ public class ElementNode{
 	public ElementNode getPrevFamilyNode() {
 		return prevFamilyNode;
 	}
+	
+	/*@Override
+	public String toString() {
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(" Data : ").append(data).append('\n');
+		buffer.append(" Previous Node : ").append(prevNode.getData()).append('\n');
+		buffer.append(" Next Node : ").append(nextNode.getData()).append('\n');
+		buffer.append(" Previous Family Node : ").append(prevFamilyNode.getData()).append('\n');
+		buffer.append(" Next Family Node : ").append(nextFamilyNode.getData());
+		return buffer.toString();
+	}*/
 }
